@@ -1,9 +1,12 @@
 # Inför futtiga funktioner
 
 - A-nivå
-- [GitBook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del1/infor-futtiga-funktioner/)
+- [GitBook](https://coursepress.gitbook.io/1dv021/ovningsuppgifter/del-1/a-niva/infor-futtiga-funktioner)
+- [Lösningsförslag](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/pre-tiny-funcs)
 
-> __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+> __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift]https://coursepress.gitbook.io/1dv021/guider/att-komma-igang-med-en-ovningsuppgift) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+## Uppgift
 
 Hämta hem övningsuppgiftens repo och lägg till en .gitignore-fil. Öppna filen `src\mf.js` och komplettera de nio funktionerna enligt specifikationerna. Du behöver inte tänka på att implementera någon form av felhantering.
 
@@ -74,7 +77,3 @@ Funktioner, metoder, etc. som _kan_ komma till användning beroende hur du välj
 - [String.charAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
 - [String.indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 - [%, restoperator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder)
-
-## Lösningsförslag
-
-- [https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/pre-tiny-funcs](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/pre-tiny-funcs)
