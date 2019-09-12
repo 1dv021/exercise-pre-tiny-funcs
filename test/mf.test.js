@@ -45,48 +45,48 @@ describe('Test round()', () => {
 })
 
 describe('Test getStringLength()', () => {
-  it(`getStringLength('Hello, World!') should return 13`, done => {
+  it('getStringLength(\'Hello, World!\') should return 13', done => {
     expect(mf.getStringLength('Hello, World!')).to.eql(13)
     done()
   })
-  it(`getStringLength('I don\\'t need Google, my wife knows everything!') should return 46`, done => {
+  it('getStringLength(\'I don\\\'t need Google, my wife knows everything!\') should return 46', done => {
     expect(mf.getStringLength('I don\'t need Google, my wife knows everything!')).to.eql(46)
     done()
   })
 })
 
 describe('Test getFirstLetter()', () => {
-  it(`getFirstLetter('Hello, World!') should return 'H'`, done => {
+  it('getFirstLetter(\'Hello, World!\') should return \'H\'', done => {
     expect(mf.getFirstLetter('Hello, World!')).to.eql('H')
     done()
   })
-  it(`getFirstLetter('Byte me!') should return 'B'`, done => {
+  it('getFirstLetter(\'Byte me!\') should return \'B\'', done => {
     expect(mf.getFirstLetter('Byte me!')).to.eql('B')
     done()
   })
 })
 
 describe('Test getIndexOfQuestionMark()', () => {
-  it(`getPositionOfQuestionMark('What\\'s a programmer? An organism that turns caffiene and pizza into software.') should return 19`, done => {
-    expect(mf.getIndexOfQuestionMark('What\'s a programmer? An organism that turns caffiene and pizza into software.')).to.eql(19)
+  it('getPositionOfQuestionMark(\'What\\\'s a programmer? An organism that turns caffeine and pizza into software.\') should return 19', done => {
+    expect(mf.getIndexOfQuestionMark('What\'s a programmer? An organism that turns caffeine and pizza into software.')).to.eql(19)
     done()
   })
-  it(`getIndexOfQuestionMark('In c<>de we trust.') should return -1`, done => {
+  it('getIndexOfQuestionMark(\'In c<>de we trust.\') should return -1', done => {
     expect(mf.getIndexOfQuestionMark('In c<>de we trust.')).to.eql(-1)
     done()
   })
 })
 
 describe('Test isEqual()', () => {
-  it(`isEqual('Potato', 'Potato') should return true`, done => {
+  it('isEqual(\'Potato\', \'Potato\') should return true', done => {
     expect(mf.isEqual('Potato', 'Potato')).to.eql(true)
     done()
   })
-  it(`isEqual('Apple', 'Pear'); should return false`, done => {
+  it('isEqual(\'Apple\', \'Pear\'); should return false', done => {
     expect(mf.isEqual('Apple', 'Pear')).to.eql(false)
     done()
   })
-  it(`isEqual('potato', 'Potato') should return false`, done => {
+  it('isEqual(\'potato\', \'Potato\') should return false', done => {
     expect(mf.isEqual('potato', 'Potato')).to.eql(false)
     done()
   })
